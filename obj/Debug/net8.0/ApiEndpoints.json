@@ -1,0 +1,140 @@
+[
+  {
+    "ContainingType": "InsuranceManagement.Controllers.PolicyServiceController",
+    "Method": "AddPolicy",
+    "RelativePath": "api/PolicyService/addPolicy",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policy",
+        "Type": "InsuranceManagement.Models.Policy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceManagement.Controllers.PolicyServiceController",
+    "Method": "AddPolicyRule",
+    "RelativePath": "api/PolicyService/AddPolicyRule",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rule",
+        "Type": "InsuranceManagement.Models.Rule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceManagement.Controllers.PolicyServiceController",
+    "Method": "addRule",
+    "RelativePath": "api/PolicyService/addPolicyRules",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyrule",
+        "Type": "InsuranceManagement.Models.Rule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceManagement.Controllers.PolicyServiceController",
+    "Method": "AddPolicyType",
+    "RelativePath": "api/PolicyService/addPolicyType",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyType",
+        "Type": "InsuranceManagement.Models.PolicyType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceManagement.Controllers.PolicyServiceController",
+    "Method": "PurchasePolicy",
+    "RelativePath": "api/PolicyService/PurchasePolicy",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "purchase",
+        "Type": "InsuranceManagement.Models.Purchase",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceManagement.Controllers.UserManagement",
+    "Method": "Login",
+    "RelativePath": "api/UserManagement/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceManagement.Controllers.UserManagement",
+    "Method": "Registration",
+    "RelativePath": "api/UserManagement/Registration",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "InsuranceManagement.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceManagement.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[InsuranceManagement.WeatherForecast, InsuranceManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
